@@ -6,7 +6,7 @@ An MPS language to generate [Bloc][bloc] components for [Flutter][flutter] apps.
 
 ## Usage
 
-Install the `mps-bloc` plugin for MPS (see https://plugins.jetbrains.com/plugin/TODO-mps-bloc).
+Install the `mps-bloc` plugin for MPS (see https://plugins.jetbrains.com/plugin/12929-mps-bloc).
 
 ## Source
 
