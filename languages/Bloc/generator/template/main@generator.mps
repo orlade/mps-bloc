@@ -114,6 +114,7 @@
       <concept id="8591698211927903536" name="Dart.structure.Export" flags="ng" index="2OqpkK">
         <property id="8591698211927903537" name="target" index="2OqpkL" />
       </concept>
+      <concept id="8591698211935225979" name="Dart.structure.Interface" flags="ng" index="2OYt1V" />
       <concept id="8591698211920550597" name="Dart.structure.Value" flags="ng" index="2PQsb5">
         <property id="8591698211920550598" name="value" index="2PQsb6" />
       </concept>
@@ -136,6 +137,7 @@
       </concept>
       <concept id="8591698211920443109" name="Dart.structure.Class" flags="ng" index="2PQUV_">
         <property id="8591698211920445550" name="isAbstract" index="2PQPxI" />
+        <child id="8591698211935225951" name="interfaces" index="2OYt1v" />
         <child id="8591698211920545389" name="annotations" index="2PQtTH" />
         <child id="8591698211920556318" name="imports" index="2PQu$u" />
         <child id="8591698211920532272" name="fields" index="2PQwGK" />
@@ -2010,6 +2012,25 @@
   <node concept="2PQUV_" id="7sVQ033BHYf">
     <property role="TrG5h" value="map_RepositoryFirebase" />
     <property role="3GE5qa" value="lib.src" />
+    <node concept="2OYt1V" id="7sVQ033QwIx" role="2OYt1v">
+      <property role="TrG5h" value="ModelRepository" />
+      <node concept="17Uvod" id="7sVQ033R_4w" role="lGtFl">
+        <property role="2qtEX9" value="name" />
+        <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+        <node concept="3zFVjK" id="7sVQ033R_4z" role="3zH0cK">
+          <node concept="3clFbS" id="7sVQ033R_4$" role="2VODD2">
+            <node concept="3clFbF" id="7sVQ033R_4E" role="3cqZAp">
+              <node concept="2OqwBi" id="7sVQ033RCgi" role="3clFbG">
+                <node concept="30H73N" id="7sVQ033RC2m" role="2Oq$k0" />
+                <node concept="3TrcHB" id="7sVQ033RCvi" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2PQxcB" id="7sVQ033BOwY" role="2PQwGK">
       <property role="TrG5h" value="collection" />
       <property role="2PQxrL" value="Firestore.instance.collection('model')" />
@@ -2347,7 +2368,7 @@
               <node concept="3clFbF" id="7sVQ033DnEM" role="3cqZAp">
                 <node concept="3cpWs3" id="7sVQ033Dyb3" role="3clFbG">
                   <node concept="Xl_RD" id="7sVQ033Dypn" role="3uHU7w">
-                    <property role="Xl_RC" value="Entity.fromSnapshot(doc)))\n          .toList();\n    });" />
+                    <property role="Xl_RC" value="Entity.fromSnapshot(doc)))\n          .toList();\n    })" />
                   </node>
                   <node concept="3cpWs3" id="7sVQ033DvLB" role="3uHU7B">
                     <node concept="3cpWs3" id="7sVQ033DtUt" role="3uHU7B">
