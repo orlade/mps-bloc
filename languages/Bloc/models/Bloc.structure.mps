@@ -73,6 +73,13 @@
     <property role="EcuMT" value="8591698211920705074" />
     <property role="TrG5h" value="Entity" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7sVQ033Ep6j" role="1TKVEi">
+      <property role="IQ2ns" value="8591698211933622675" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="model" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7sVQ032T7oN" resolve="Model" />
+    </node>
     <node concept="PrWs8" id="7sVQ032Tc5I" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -112,6 +119,22 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="PrWs8" id="7sVQ032Tknm" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7sVQ033AzCh">
+    <property role="EcuMT" value="8591698211932617233" />
+    <property role="TrG5h" value="Project" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7sVQ033AzCi" role="1TKVEi">
+      <property role="IQ2ns" value="8591698211932617234" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="repositories" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="7sVQ032SRn4" resolve="Repository" />
+    </node>
+    <node concept="PrWs8" id="7sVQ033B0gY" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
