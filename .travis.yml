@@ -11,7 +11,7 @@ deploy:
     script: 'curl -ivf --header "Authorization: Bearer $UPLOAD_KEY" -F pluginId=12929 -F file=@mps-bloc.zip -F channel=nightly https://plugins.jetbrains.com/plugin/uploadPlugin'
     skip_cleanup: true
     on:
-      branch: develop:
+      branch: develop
       condition: '$(git diff --name-only $TRAVIS_COMMIT_RANGE | grep "^VERSION$") = VERSION'
   # Upload master to the stable channel.
   - provider: script
